@@ -6,7 +6,7 @@ const  reducer =(state=initialState,action)=>{
     const newState ={...state};
     
     switch (action.type) {
-        case "INC":
+        case "INC_ASYNC":
            newState.age++;
            break;
         case "DEC":
